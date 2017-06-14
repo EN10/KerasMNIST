@@ -1,14 +1,19 @@
 # Keras MNIST
 
-Based on:   https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py
+cnn.py based on:        https://github.com/fchollet/keras/blob/master/examples/mnist_cnn.py  
+predict.py based on:    https://github.com/llSourcell/how_to_deploy_a_keras_model_to_production/blob/master/app.py  
 
 ## Install
+Keras:  
+
     sudo apt update 
     sudo apt install python-dev 
-    sudo pip install -U pip  
-    
-    sudo pip install tensorflow 
     sudo pip install keras
+
+Tensorflow:
+    
+    sudo pip install -U pip  
+    sudo pip install tensorflow 
     sudo pip install pillow 
     
 disable "cpu_feature_guard":  
