@@ -1,7 +1,7 @@
 # Keras MNIST
 
-cnn.py training based on:        https://github.com/fchollet/keras/blob/master/examples/mnist_cnn.py  
-predict.py inference based on:    https://github.com/llSourcell/how_to_deploy_a_keras_model_to_production/blob/master/app.py  
+cnn.py training based on [keras mnist_cnn.py](https://github.com/fchollet/keras/blob/master/examples/mnist_cnn.py)  
+predict.py inference based on [Flask app.py](https://github.com/llSourcell/how_to_deploy_a_keras_model_to_production/blob/master/app.py)  
 cnn.h5 pretrained Keras model 
 
 ## Install
