@@ -12,7 +12,7 @@ model.compile(loss=keras.losses.categorical_crossentropy,
 
 model.fit(mnist.train.images, mnist.train.labels,
           batch_size=128,
-          epochs=5,
+          epochs=20,
           verbose=1)
           
 model.save('TFKeras.h5')
