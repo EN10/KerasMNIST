@@ -3,7 +3,7 @@
 cnn.py training based on [keras mnist_cnn.py](https://github.com/fchollet/keras/blob/master/examples/mnist_cnn.py)  
 predict.py inference based on [Flask app.py](https://github.com/llSourcell/how_to_deploy_a_keras_model_to_production/blob/master/app.py)  
 cnn.h5 pretrained Keras model  
-dense.py & h5 simplified training & saved model  
+dense.py & h5 simplified training & saved model, less accurate than cnn. 
 
 Keras Documentation:  
 * [Dense](https://keras.io/layers/core/#dense)
