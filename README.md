@@ -5,7 +5,15 @@ predict.py inference based on [Flask app.py](https://github.com/llSourcell/how_t
 cnn.h5 pretrained Keras model  
 dense.py & h5 simplified training & saved model, less accurate than cnn. 
 
+Code Documentation:  
+* `batch_size` number of images per loop step
+* `epochs` number of train loops
+* `num_classes` there are 10 digits 0-9
+* `x_train.astype('float32')` trains faster than int
+* `x_train /= 255` from 0-255 to 0-1
+
 Keras Documentation:  
+* [to_categorical](https://keras.io/utils/#to_categorical) aka one_hot
 * [Dense](https://keras.io/layers/core/#dense)
 * [Flatten](https://keras.io/layers/core/#flatten)
 

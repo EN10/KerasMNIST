@@ -1,6 +1,6 @@
 from scipy.misc import imsave, imread, imresize
 import numpy as np
-x = imread('test11.png',mode='L')
+x = imread('test3.png',mode='L')
 #compute a bit-wise inversion so black becomes white and vice versa
 x = np.invert(x)
 #make it the right size
