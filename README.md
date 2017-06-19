@@ -14,6 +14,7 @@ Code Documentation:
 * `num_classes` there are 10 digits 0-9
 * `x_train.astype('float32')` trains faster than int
 * `x_train /= 255` from 0-255 to 0-1
+* `verbose=1` 1 for progress bar logging
 
 Keras Documentation:  
 * [to_categorical](https://keras.io/utils/#to_categorical) aka one_hot
