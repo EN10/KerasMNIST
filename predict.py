@@ -1,6 +1,6 @@
 from scipy.misc import imsave, imread, imresize
 import numpy as np
-x = imread('test1.png',mode='L')
+x = imread('test11.png',mode='L')
 #compute a bit-wise inversion so black becomes white and vice versa
 x = np.invert(x)
 #make it the right size
@@ -13,6 +13,6 @@ x /= 255
 
 #perform the prediction
 from keras.models import load_model
-model = load_model('cnn.h5')
+model = load_model('dense.h5')
 out = model.predict(x)
 print(np.argmax(out))
