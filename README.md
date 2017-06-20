@@ -4,9 +4,11 @@ cnn.py training based on [keras mnist_cnn.py](https://github.com/fchollet/keras/
 predict.py inference based on [Flask app.py](https://github.com/llSourcell/how_to_deploy_a_keras_model_to_production/blob/master/app.py)  
 cnn.h5 pretrained Keras model  
 
-dense.py & dense.h5 simplified training & saved model based on  [keras mnist_mlp.py](https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py), less accurate than cnn.  
+TFKeras is based on simplified [MNIST For ML Beginners](https://www.tensorflow.org/get_started/mnist/beginners#the_mnist_data) and cnn.py.  
+TFKeras.py, TFKeras.h5 & TFKpredict only uses Dense and so is less accurate than CNN.  
+TFKeras is 92% accurate vs CNN 99.25%  
 
-TFKeras.py, TFKeras.h5 & TFKpredict simplified based on [MNIST For ML Beginners](https://www.tensorflow.org/get_started/mnist/beginners#the_mnist_data) and dense.py  
+CNN can detect digit `1` better.
 
 Code Documentation:  
 * `batch_size` number of images per loop step
