@@ -22,17 +22,24 @@ Keras Documentation:
 * [Flatten](https://keras.io/layers/core/#flatten)
 
 ## Install
+Tensorflow:
+    
+    sudo pip install -U pip  
+    sudo pip install tensorflow 
+
 Keras:  
 
     sudo apt update 
     sudo apt install python-dev 
     sudo pip install keras
 
-Tensorflow:
-    
-    sudo pip install -U pip  
-    sudo pip install tensorflow 
+Save Model:
+
+    sudo pip install h5py
+
+imread:
+
     sudo pip install pillow 
-    
+
 disable "cpu_feature_guard":  
 `export TF_CPP_MIN_LOG_LEVEL=2`
