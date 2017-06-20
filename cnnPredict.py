@@ -1,4 +1,4 @@
-from scipy.misc import imsave, imread, imresize
+from scipy.misc import imread, imresize
 import numpy as np
 x = imread('test1.png',mode='L')
 #compute a bit-wise inversion so black becomes white and vice versa
@@ -9,7 +9,6 @@ x = imresize(x,(28,28))
 x = x.reshape(1,28,28,1)
 x = x.astype('float32')
 x /= 255
-#print(x)
 
 #perform the prediction
 from keras.models import load_model

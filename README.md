@@ -5,7 +5,7 @@ predict.py inference based on [Flask app.py](https://github.com/llSourcell/how_t
 cnn.h5 pretrained Keras model  
 
 TFKeras is based on simplified [MNIST For ML Beginners](https://www.tensorflow.org/get_started/mnist/beginners#the_mnist_data) and cnn.py.  
-TFKeras.py, TFKeras.h5 & TFKpredict only uses Dense and so is less accurate than CNN.  
+TFKeras.py, TFKeras.h5 & TFKpredict model only has a Dense layer and so is less accurate than CNN.  
 TFKeras is 92% accurate vs CNN 99.25%  
 
 CNN can detect digit `1` better.
