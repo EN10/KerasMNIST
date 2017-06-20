@@ -10,6 +10,8 @@ TFKeras is 92% accurate vs CNN 99.25%
 
 CNN can detect digit `1` better.
 
+[Keras.js MNIST CNN Demo](https://transcranial.github.io/keras-js/#/mnist-cnn)
+
 Code Documentation:  
 * `batch_size` number of images per loop step
 * `epochs` number of train loops
