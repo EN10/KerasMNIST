@@ -1,13 +1,14 @@
 # Keras MNIST
 
 cnn.py training based on [keras mnist_cnn.py](https://github.com/fchollet/keras/blob/master/examples/mnist_cnn.py)  
-predict.py inference based on [Flask app.py](https://github.com/llSourcell/how_to_deploy_a_keras_model_to_production/blob/master/app.py)  
+cnnPredict.py inference based on [Flask app.py](https://github.com/llSourcell/how_to_deploy_a_keras_model_to_production/blob/master/app.py)  
 cnn.h5 pretrained Keras model  
 
 TFKeras is based on simplified [MNIST For ML Beginners](https://www.tensorflow.org/get_started/mnist/beginners#the_mnist_data) and cnn.py.  
 TFKeras.py, TFKeras.h5 & TFKpredict only uses Dense and so is less accurate than CNN.  
-TFKeras is 92% accurate vs CNN 99.25%  
+TFKpredict is a slimmed version of cnnPredict.  
 
+TFKeras is 92% accurate vs CNN 99.25%  
 CNN can detect digit `1` better.
 
 [Keras.js MNIST CNN Demo](https://transcranial.github.io/keras-js/#/mnist-cnn)
