@@ -20,6 +20,7 @@ Code Documentation:
 * `x_train.astype('float32')` trains faster than int
 * `x_train /= 255` from 0-255 to 0-1
 * `verbose=1` 1 for progress bar logging
+* `imread('test3.png',mode='L')` [‘L’ (8-bit pixels, black and white)](http://scipy.github.io/devdocs/generated/scipy.misc.imread.html#scipy.misc.imread)
 
 Keras Documentation:  
 * [to_categorical](https://keras.io/utils/#to_categorical) aka one_hot
