@@ -22,6 +22,9 @@ Code Documentation:
 * `verbose=1` 1 for progress bar logging
 * `imread('test3.png',mode='L')` [‘L’ (8-bit pixels, black and white)](http://scipy.github.io/devdocs/generated/scipy.misc.imread.html#scipy.misc.imread)
 
+[keras.py](https://github.com/EN10/KerasMNIST/blob/master/keras.py) equivalent to TFKeras.py using the keras dataser rather than then tensorflow dataset.  
+[jupyter.py](https://github.com/EN10/KerasMNIST/blob/master/jupyter.py) has matplotlib and colab examples.    
+
 Keras Documentation:  
 * [to_categorical](https://keras.io/utils/#to_categorical) aka one_hot
 * [Dense](https://keras.io/layers/core/#dense)
