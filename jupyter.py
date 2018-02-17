@@ -2,6 +2,7 @@
 from tensorflow.python.keras.datasets import mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
+#####################################################################################
 
 # display an image from mnist
 import matplotlib.pyplot as plt
@@ -11,6 +12,7 @@ plt.imshow(x_train[i])
 print (y_train[i])
 print x_train[i].shape
 
+#####################################################################################
 
 # upload and save file
 
@@ -25,6 +27,8 @@ for fn in uploaded.keys():
 filename = 'test1.png'
 with open(filename, 'w') as f:
   f.write(uploaded[filename])
+
+#####################################################################################
 
 # load and display image
   
