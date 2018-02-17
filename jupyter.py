@@ -22,9 +22,9 @@ for fn in uploaded.keys():
   print('User uploaded file "{name}" with length {length} bytes'.format(
       name=fn, length=len(uploaded[fn])))
 
-with open("test1.png", 'w') as f:
-  f.write(uploaded[uploaded.keys()[0]])
-
+filename = 'test1.png'
+with open(filename, 'w') as f:
+  f.write(uploaded[filename])
 
 # load and display image
   
