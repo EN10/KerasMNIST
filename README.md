@@ -23,7 +23,7 @@ Code Documentation:
 * `imread('test3.png',mode='L')` [‘L’ (8-bit pixels, black and white)](http://scipy.github.io/devdocs/generated/scipy.misc.imread.html#scipy.misc.imread)
 
 [kerasDataset.py](https://github.com/EN10/KerasMNIST/blob/master/kerasDataset.py) equivalent to TFKeras.py using the keras dataset rather than the tensorflow dataset.  
-[KerasTFDataset.py](https://github.com/EN10/KerasMNIST/blob/master/kerasDataset.py) simplified example of TFKeras.py    
+[KerasTFDataset.py](https://github.com/EN10/KerasMNIST/blob/master/kerasDataset.py) simplified example of [TFKeras.py](https://github.com/EN10/KerasMNIST/blob/master/TFKeras.py)    
 [jupyter.py](https://github.com/EN10/KerasMNIST/blob/master/jupyter.py) has matplotlib and colab examples.    
 
 Keras Documentation:  
