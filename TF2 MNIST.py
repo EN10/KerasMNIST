@@ -1,6 +1,6 @@
 """MNIST
 Code based on :
-https://www.tensorflow.org/overview
+https://www.tensorflow.org/tutorials/quickstart/beginner
 """
 
 import keras
