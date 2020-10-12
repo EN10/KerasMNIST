@@ -1,6 +1,7 @@
 """MNIST
 Code based on :
-https://www.tensorflow.org/tutorials/quickstart/beginner
+* https://www.tensorflow.org/tutorials/quickstart/beginner    
+* https://github.com/EN10/KerasFashionMNIST/blob/main/FashionMNIST.py 
 """
 
 import keras
